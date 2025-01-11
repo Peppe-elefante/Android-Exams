@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ToggleButton
+            android:id="@+id/toggleElement"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOn="Move"
+            android:textOff="Cancel"
+            />
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:id="@+id/listnames">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="list 1:"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/insertLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="insert"
+                android:layout_weight="1"/>
+
+            <ListView
+                android:id="@+id/list1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="list 2:"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/insertRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="insert"
+                android:layout_weight="1"/>
+
+            <ListView
+                android:id="@+id/list2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

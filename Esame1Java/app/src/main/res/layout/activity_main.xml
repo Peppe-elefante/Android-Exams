@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="35sp"/>
+
+    <LinearLayout
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@id/mainGrid"
+        android:layout_centerHorizontal="true">
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn1"
+            android:text="&#8657;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn2"
+            android:text="&#8657;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn3"
+            android:text="&#8657;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="249dp"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@id/mainGrid"
+        android:layout_centerVertical="true">
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn12"
+            android:text="&#8656;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn11"
+            android:text="&#8656;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn10"
+            android:text="&#8656;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="249dp"
+        android:layout_height="249dp"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tvGrid1"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+			android:gravity="center"
+			android:textSize="30sp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvGrid2"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+			android:gravity="center"
+			android:textSize="30sp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvGrid3"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+			android:gravity="center"
+			android:textSize="30sp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvGrid4"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+			android:gravity="center"
+			android:textSize="30sp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvGrid5"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+			android:gravity="center"
+			android:textSize="30sp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvGrid6"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+			android:gravity="center"
+			android:textSize="30sp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvGrid7"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+			android:gravity="center"
+			android:textSize="30sp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvGrid8"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+			android:gravity="center"
+			android:textSize="30sp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvGrid9"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+			android:gravity="center"
+			android:textSize="30sp"
+            android:background="@color/white" />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="249dp"
+        android:layout_toEndOf="@id/mainGrid"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#8658;"
+            android:layout_weight="1"/>
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#8658;"
+            android:layout_weight="1"/>
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#8658;"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/mainGrid"
+        android:layout_centerHorizontal="true">
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn9"
+            android:text="&#8659;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn8"
+            android:text="&#8659;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+			android:onClick="playGioco"
+            android:id="@+id/btn7"
+            android:text="&#8659;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:onClick="resetGame"/>
+
+</RelativeLayout>
