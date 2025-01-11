@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <GridLayout
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:columnCount="4"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+        <Button
+            android:id="@+id/btn16"
+            android:layout_height="75dp"
+            android:layout_width="75dp" android:onClick="play"/>
+
+
+    </GridLayout>
+
+    <Button
+        android:text="MOSTRA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mostra"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:text="RESET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reset"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+
+
+</RelativeLayout>
